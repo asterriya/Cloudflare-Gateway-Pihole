@@ -1,1 +1,3 @@
 weawow.com
+z-lib.gs
+z-library.rs
