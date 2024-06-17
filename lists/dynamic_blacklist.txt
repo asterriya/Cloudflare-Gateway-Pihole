@@ -74,21 +74,11 @@ coin-eu.amazonpay.com
 amazon-adsystem.com
 alexametrics.com
 g-ecx.images-amazon.com
-images-amazon.com
 g-ec2.images-amazon.com
 certify-js.alexametrics.com
 aax-eu.amazon-adsystem.com
-fls-eu.amazon.de
-images-eu.ssl-images-amazon.com
 amzn.to # Amazon short links
 track.adform.net
-static-eu.payments-amazon.com
-
-## Sports ##
-aj1985.online
-v1.oddserve.com # Banner
-oddsserve-wqps7yvkz.stackpathdns.com # Banner
-content.livesportmedia.eu # Used by flashscore.de
 
 ## From Streaming Sites ##
 browser.events.data.microsoft.com
@@ -219,22 +209,8 @@ A535586-android-ds.metric.gstatic.com
 795387-android-ds.metric.gstatic.com
 
 ## Faceb & Co. ##
-mmx-ds.cdn.whatsapp.net 
-clients2.google.com
-z-p15-instagram.c10r.facebook.com
-instagram.c10r.facebook.com
 lookaside.facebook.com
-star-mini.c10r.facebook.com
-external-prg1-1.xx.fbcdn.net
-scontent-prg1-1.xx.fbcdn.net
-scontent-frt3-2.xx.fbcdn.net
-facebook.com
-facebook.net
-connect.facebook.net
 adtools.facebook.com
-graph.instagram.com
-i.instagram.com
-fbcdn.net
 
 ## Snapchat ##
 app.analytics.snapchat.com
