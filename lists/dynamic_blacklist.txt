@@ -6,8 +6,6 @@
 # NoPlayList
 # https://github.com/allendema/noplaylist/raw/main/NoPlayList.txt
 
-# Devices, apps and addons used to create this are: uBlock Origin, iOS and Android phones, Blokada, Android Box, PiHole.
-
 ## Reddit ##
 ads.reddit.com
 tracker.redditmedia.com
