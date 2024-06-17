@@ -11,6 +11,12 @@
 # NoPlayList
 # https://github.com/allendema/noplaylist/raw/main/NoPlayList.txt
 
+# Title: d3Host List by d3ward
+# Expires: 1 days
+# Description: Simple and small list with the most popular advertising, tracking, analytics and social advertising services
+# License: CC BY-NC-SA
+# Source: https://github.com/d3ward/toolz/blob/master/src/d3host.txt
+
 # [google.com]
 ad.doubleclick.net
 ade.googlesyndication.com
@@ -113,45 +119,6 @@ analytics.facebook.com
 graph.facebook.com
 pixel.facebook.com
 
-# [xiaomi.com]
-ad.mi.com
-ad.xiaomi.com
-adv.sec.intl.miui.com
-adv.sec.miui.com
-api.accelerator.intl.miui.com
-api.ad.intl.xiaomi.com
-api.ad.xiaomi.com
-api.sec.intl.miui.com
-app.chat.xiaomi.net
-authbe.sec.intl.miui.com
-data.mistat.india.xiaomi.com
-data.mistat.intl.xiaomi.com
-data.mistat.rus.xiaomi.com
-data.mistat.xiaomi.com
-data.sec.intl.miui.com
-data.sec.miui.com
-flash.sec.intl.miui.com
-globalapi.ad.xiaomi.com
-jupiter.intl.sys.miui.com
-jupiter.rus.sys.miui.com
-mitv.tracking.india.miui.com
-mitv.tracking.intl.miui.com
-mitv.tracking.miui.com
-mitv.tracking.rus.miui.com
-privacy.api.intl.miui.com
-sa.api.intl.miui.com
-sa.tv.global.mi.com
-sdkconfig.ad.eu.xiaomi.com
-sdkconfig.ad.india.xiaomi.com
-sdkconfig.ad.intl.xiaomi.com
-sdkconfig.ad.rus.xiaomi.com
-sdkconfig.ad.xiaomi.com
-tracking.india.miui.com
-tracking.intl.miui.com
-tracking.miui.com
-tracking.rus.miui.com
-www.cdn.ad.xiaomi.com
-
 # [mozilla.org]
 incoming.telemetry.mozilla.org
 probes.telemetry.mozilla.org
@@ -159,34 +126,6 @@ telemetry.mozilla.org
 
 # [firefox.com]
 detectportal.firefox.com
-
-# [yandex.ru]
-abt.s3.yandex.net
-adfstat.yandex.ru
-adsdk.yandex.ru
-amc.yandex.ru
-an.yandex.ru
-analytics.mobile.yandex.net
-appmetrica.yandex.com
-bs.yandex.ru
-extmaps-api.yandex.net
-informer.yandex.ru
-log.strm.yandex.ru
-mc.yandex.ru
-mobile.yandexadexchange.net
-redirect.appmetrica.yandex.com
-report.appmetrica.yandex.net
-rosenberg.appmetrica.yandex.net
-startup-mobile.ap.yandex-net.ru
-startup-mobile.yandex.net
-startup.mobile.yandex.net
-taxi-promotions.s3.yandex.net
-yabs.yandex.ru
-yandexadexchange.net
-ymetrica.com
-ymetrica1.com
-ymetrica2.com
-ymetrica3.com
 
 # [webvisor.com]
 appmetrica.webvisor.com
@@ -320,19 +259,6 @@ s4.acestream.net
 s5.acestream.net
 ts.acestream.net
 
-# [sentry.io]
-app.getsentry.com
-browser.sentry-cdn.com
-ingest.sentry.io
-o118392.ingest.sentry.io
-o279119.ingest.sentry.io
-o308928.ingest.sentry.io
-o22381.ingest.sentry.io
-o439907.ingest.sentry.io
-o529943.ingest.sentry.io
-sentry-cdn.com
-sentry.io
-
 # [adjust.com]
 adj.st
 adjust.com
@@ -350,12 +276,6 @@ nmetrics.samsung.com
 samsungadhub.com
 samsungads.com
 smetrics.samsung.com
-
-# [hotjar.com]
-api-hotjar.com
-hotjar-analytics.com
-static.hotjar.com
-www.hotjar.com
 
 # [mail.ru]
 ad.mail.ru
@@ -395,6 +315,7 @@ assoc-amazon.com
 c.amazon-adsystem.com
 mads.amazon-adsystem.com
 s.amazon-adsystem.com
+analytics.s3.amazonaws.com
 
 # [twitch.tv]
 countess.twitch.tv
@@ -469,6 +390,8 @@ adc3-assets.adcolony.com
 adc3-launch.adcolony.com
 wd.adcolony.com
 www.adcolony.com
+ads30.adcolony.com
+events3alt.adcolony.com
 
 # [rayjump.com]
 analytics.rayjump.com
@@ -576,22 +499,12 @@ adservetx.media.net
 static.media.net
 www.media.net
 
-# [mouseflow.com]
-a.mouseflow.com
-mouseflow.com
-
 # [bugsnag.com]
 api.bugsnag.com
 app.bugsnag.com
 notify.bugsnag.com
 sessions.bugsnag.com
 www.bugsnag.com
-
-# [yahoo.com]
-ads.yahoo.com
-ads.yap.yahoo.com
-analytics.yahoo.com
-global.adserver.yahoo.com
 
 # [appnext.com]
 cdn.appnext.com
@@ -702,11 +615,6 @@ api.tafimedia.com
 # [adguard.com]
 sentry-adtidy.b-cdn.net
 
-# [apple.com]
-api-adservices.apple.com
-bag.itunes.apple.com
-proxy.safebrowsing.apple
-
 # [markmonitor.com]
 app-analytics-services.com
 
@@ -727,8 +635,6 @@ events.redditmedia.com
 ## Search Engines ##
 improving.duckduckgo.com
 ac.duckduckgo.com
-analytics.yahoo.com
-yahoo.com
 adyen.com # Used on SwissCows
 www.smartredirect.de # Used on SwissCows
 s1.qwant.com # Had something with 3rd party URLs to do.
@@ -736,7 +642,7 @@ delivery.askmediagroup.com # Ask js
 soflopxl.com # Dogpile
 pixel.tatpek.com # Dogpile Statistics
 
-## AMAZOO ##
+## Amazon ##
 associates-amazon.com
 opodo.de
 coin-eu.amazonpay.com
@@ -808,7 +714,6 @@ kvygpqttzqhhl.com
 st.chatango.com
 plausible.io
 track.gravitec.media
-sessions.bugsnag.com
 yastatic.net
 www.windowssearch-exp.com
 segment-data.zqtk.net
@@ -843,3 +748,221 @@ firebaseremoteconfig.googleapis.com
 appspot.l.google.com
 use.adserver.com
 cloudlareinsights.com
+
+#============ Ads =============
+
+# --- Google Ads
+afs.googlesyndication.com
+
+# --- Doubleclick.net
+stats.g.doubleclick.net
+
+#========= Analytics ==========
+
+# --- Google Analytics
+analytics.google.com
+click.googleanalytics.com
+google-analytics.com
+ssl.google-analytics.com
+
+# --- Hotjar
+adm.hotjar.com
+identify.hotjar.com
+insights.hotjar.com
+script.hotjar.com
+surveys.hotjar.com
+careers.hotjar.com
+events.hotjar.io
+
+# --- MouseFlow
+mouseflow.com
+cdn.mouseflow.com
+o2.mouseflow.com
+gtm.mouseflow.com
+api.mouseflow.com
+tools.mouseflow.com
+cdn-test.mouseflow.com
+
+# --- FreshWorks
+freshmarketer.com
+claritybt.freshmarketer.com
+fwtracks.freshmarketer.com
+
+# --- Luckyorange
+luckyorange.com
+api.luckyorange.com
+realtime.luckyorange.com
+cdn.luckyorange.com
+w1.luckyorange.com
+upload.luckyorange.net
+cs.luckyorange.net
+settings.luckyorange.net
+
+# --- Stats WP Plugin
+stats.wp.com
+
+#======= Error Trackers =======
+
+# --- Sentry
+browser.sentry-cdn.com
+app.getsentry.com
+browser.sentry-cdn.com
+ingest.sentry.io
+sentry-cdn.com
+sentry.io
+
+#====== Social Trackers =======
+
+# --- LinkedIn
+ads.linkedin.com
+analytics.pointdrive.linkedin.com
+
+# --- Pinterest
+ads.pinterest.com
+log.pinterest.com
+analytics.pinterest.com
+trk.pinterest.com
+
+# --- TikTok
+ads-api.tiktok.com
+analytics.tiktok.com
+ads-sg.tiktok.com
+analytics-sg.tiktok.com
+business-api.tiktok.com
+ads.tiktok.com
+log.byteoversea.com
+
+#============ Mix =============
+
+# --- Yahoo
+ads.yahoo.com
+analytics.yahoo.com
+geo.yahoo.com
+udc.yahoo.com
+udcm.yahoo.com
+analytics.query.yahoo.com
+partnerads.ysm.yahoo.com
+log.fc.yahoo.com
+gemini.yahoo.com
+adtech.yahooinc.com
+
+# --- Yandex
+extmaps-api.yandex.net
+appmetrica.yandex.ru
+adfstat.yandex.ru
+metrika.yandex.ru
+offerwall.yandex.net
+adfox.yandex.ru
+abt.s3.yandex.net
+adsdk.yandex.ru
+amc.yandex.ru
+an.yandex.ru
+analytics.mobile.yandex.net
+appmetrica.yandex.com
+bs.yandex.ru
+informer.yandex.ru
+log.strm.yandex.ru
+mc.yandex.ru
+mobile.yandexadexchange.net
+redirect.appmetrica.yandex.com
+report.appmetrica.yandex.net
+rosenberg.appmetrica.yandex.net
+startup-mobile.ap.yandex-net.ru
+startup-mobile.yandex.net
+startup.mobile.yandex.net
+taxi-promotions.s3.yandex.net
+yabs.yandex.ru
+yandexadexchange.net
+ymetrica.com
+ymetrica1.com
+ymetrica2.com
+ymetrica3.com
+
+# --- Unity
+auction.unityads.unity3d.com
+webview.unityads.unity3d.com
+config.unityads.unity3d.com
+adserver.unityads.unity3d.com
+
+#============ OEMs ============
+
+# --- Realme
+iot-eu-logser.realme.com
+iot-logser.realme.com
+bdapi-ads.realmemobile.com
+bdapi-in-ads.realmemobile.com
+
+# --- Xiaomi
+api.ad.xiaomi.com
+data.mistat.xiaomi.com
+data.mistat.india.xiaomi.com
+data.mistat.rus.xiaomi.com
+sdkconfig.ad.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
+tracking.rus.miui.com
+ad.mi.com
+ad.xiaomi.com
+adv.sec.intl.miui.com
+adv.sec.miui.com
+api.accelerator.intl.miui.com
+api.ad.intl.xiaomi.com
+api.sec.intl.miui.com
+app.chat.xiaomi.net
+authbe.sec.intl.miui.com
+data.sec.miui.com
+flash.sec.intl.miui.com
+globalapi.ad.xiaomi.com
+jupiter.intl.sys.miui.com
+jupiter.rus.sys.miui.com
+mitv.tracking.india.miui.com
+mitv.tracking.intl.miui.com
+mitv.tracking.miui.com
+mitv.tracking.rus.miui.com
+privacy.api.intl.miui.com
+sa.api.intl.miui.com
+sa.tv.global.mi.com
+sdkconfig.ad.eu.xiaomi.com
+sdkconfig.ad.india.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
+sdkconfig.ad.rus.xiaomi.com
+sdkconfig.ad.xiaomi.com
+tracking.india.miui.com
+tracking.intl.miui.com
+tracking.miui.com
+www.cdn.ad.xiaomi.com
+
+# --- Oppo
+adsfs.oppomobile.com
+adx.ads.oppomobile.com
+ck.ads.oppomobile.com
+data.ads.oppomobile.com
+
+# --- Huawei
+metrics.data.hicloud.com
+metrics2.data.hicloud.com
+grs.hicloud.com
+logservice.hicloud.com
+logservice1.hicloud.com
+logbak.hicloud.com
+
+# --- OnePlus
+click.oneplus.cn
+open.oneplus.net
+
+# --- Samsung
+samsungads.com
+smetrics.samsung.com
+nmetrics.samsung.com
+samsung-com.112.2o7.net
+analytics-api.samsunghealthcn.com
+
+# --- Apple
+iadsdk.apple.com
+metrics.icloud.com
+metrics.mzstatic.com
+api-adservices.apple.com
+books-analytics-events.apple.com
+weather-analytics-events.apple.com
+notes-analytics-events.apple.com
+bag.itunes.apple.com
+proxy.safebrowsing.apple
