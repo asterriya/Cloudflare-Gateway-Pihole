@@ -1,20 +1,14 @@
 # Title: bogachenko's Hosts Filter
 # Description: Yet another anti-bullshit filter list.
 # Homepage: https://github.com/bogachenko/filterlist
-# RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoBL.hosts
-
-! Version: 16.05.2024
-! Expires: 5 days
 
 # Web Beautifier by Allen
 # This list doesn't play!
 # NoPlayList
-# https://github.com/allendema/noplaylist/raw/main/NoPlayList.txt
+# https://github.com/allendema/noplaylist/
 
 # Title: d3Host List by d3ward
-# Expires: 1 days
 # Description: Simple and small list with the most popular advertising, tracking, analytics and social advertising services
-# License: CC BY-NC-SA
 # Source: https://github.com/d3ward/toolz/blob/master/src/d3host.txt
 
 # [google.com]
