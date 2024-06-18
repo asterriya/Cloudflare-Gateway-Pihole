@@ -1,11 +1,10 @@
 import re
 import time
+import hashlib
 from src import (
-    info,
     cloudflare,
-    silent_error,
-    MAX_LIST_SIZE,
-    RATE_LIMIT_INTERVAL
+    info, silent_error,
+    MAX_LIST_SIZE, RATE_LIMIT_INTERVAL
 )
 
 class RateLimiter:
@@ -63,6 +62,17 @@ def safe_sort_key(list_item):
     match = re.search(r'\d+', list_item["name"])
     return int(match.group()) if match else float('inf')
 
+def hash_list(list_items):
+    hash_object = hashlib.sha256()
+    for item in sorted(list_items):
+        hash_object.update(item.encode('utf-8'))
+    return hash_object.hexdigest()
+
+def compare_lists_hash(new_list_items, list_items_values):
+    new_list_hash = hash_list(new_list_items)
+    old_list_hash = hash_list(list_items_values)
+    return new_list_hash == old_list_hash
+
 def update_lists(current_lists, chunked_lists, adlist_name):
     used_list_ids = []
     excess_list_ids = []
@@ -86,7 +96,10 @@ def update_lists(current_lists, chunked_lists, adlist_name):
                 ]
                 new_list_items = chunked_lists[list_index - 1]
 
-                if list_items_values != new_list_items:
+                if compare_lists_hash(new_list_items, list_items_values):
+                    info(f"No changes detected for list {list_item['name']}, skipping update")
+                    used_list_ids.append(list_item["id"])
+                else:
                     info(f"Updating list {list_item['name']}")
                     list_items_array = [{"value": domain} for domain in new_list_items]
 
@@ -98,10 +111,7 @@ def update_lists(current_lists, chunked_lists, adlist_name):
                     cloudflare.patch_list(list_item["id"], payload)
                     used_list_ids.append(list_item["id"])
                     rate_limiter.wait_for_next_request()
-                else:
-                    info(f"No changes detected for list {list_item['name']}, skipping update")
-                    used_list_ids.append(list_item["id"])
-                continue 
+                continue
 
             info(f"Marking list {list_item['name']} for deletion")
             excess_list_ids.append(list_item["id"])
