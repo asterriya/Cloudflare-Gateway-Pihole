@@ -1,1 +1,1147 @@
+# Title: bogachenko's Hosts Filter
+# Description: Yet another anti-bullshit filter list.
+# Homepage: https://github.com/bogachenko/filterlist
 
+# Web Beautifier by Allen
+# This list doesn't play!
+# NoPlayList
+# https://github.com/allendema/noplaylist/
+
+# Title: d3Host List by d3ward
+# Description: Simple and small list with the most popular advertising, tracking, analytics and social advertising services
+# Source: https://github.com/d3ward/toolz/blob/master/src/d3host.txt
+
+# [google.com]
+ad.doubleclick.net
+ade.googlesyndication.com
+ads.google.com
+ads.youtube.com
+adservice.google.com
+androidtvchannels-pa.googleapis.com
+androidtvwatsonfe-pa.googleapis.com
+api.crashlytics.com
+app-measurement.com
+beacons.gcp.gvt2.com
+beacons.gvt2.com
+beacons.gvt3.com
+beacons2.gvt2.com
+beacons2.gvt3.com
+beacons3.gvt2.com
+beacons3.gvt3.com
+beacons4.gvt2.com
+beacons4.gvt3.com
+beacons5.gvt2.com
+beacons5.gvt3.com
+crashlyticsreports-pa.googleapis.com
+doubleclick.net
+firebase-settings.crashlytics.com
+firebaselogging-pa.googleapis.com
+firebaselogging.googleapis.com
+footprints-pa.googleapis.com
+google-analytics.com
+googleadapis.l.google.com
+googleads.g.doubleclick.net
+googleadservices.com
+id.google.com
+id.google.ru
+imasdk.googleapis.com
+improving.duckduckgo.com
+infinitedata-pa.googleapis.com
+m.doubleclick.net
+mediavisor.doubleclick.net
+pagead.l.doubleclick.net
+pagead2.googleadservices.com
+pagead2.googlesyndication.com
+securepubads.g.doubleclick.net
+settings.crashlytics.com
+ssl.google-analytics.com
+static.doubleclick.net
+www.google-analytics.com
+www.googleadservices.com
+www.googletagmanager.com
+safebrowsing.googleapis.com
+googlesyndication.com
+myphonenumbers-pa.googleapis.com
+speechs3proto2-pa.googleapis.com
+ajax.googleapis.com
+userlocation.googleapis.com
+semanticlocation-pa.googleapis.com
+growth-pa.googleapis.com
+geomobileservices-pa.googleapis.com
+firebaseinstallations.googleapis.com
+datamixer.pa.googleapis.com
+sxone-pa.googleapis.com
+pay-users-pa.googleapis.com
+androidpay-users-pa.googleapis.com # Even if not active user
+clouderrorreporting.googleapis.com # Vrstotal
+fundingchoicesmessages.google.com
+pubads.g.doubleclick.net
+adservice.google.com
+cdn.ampproject.org
+people-pa.googleapis.com 
+locationhistory-pa.googleapis.com
+
+# [whatsapp.com]
+dit.whatsapp.net
+crashlogs.whatsapp.net
+
+# [microsoft.com]
+browser.events.data.microsoft.com
+browser.pipe.aria.microsoft.com
+eu-teams.events.data.microsoft.com
+ic3.events.data.microsoft.com
+in.appcenter.ms
+settings-win.data.microsoft.com
+mobile.events.data.microsoft.com
+mobile.pipe.aria.microsoft.com
+prod-collecticon.outlookmobile.com
+self.events.data.microsoft.com
+teams.events.data.microsoft.com
+
+# [live.com]
+nexus.officeapps.live.com
+nexusrules.officeapps.live.com
+
+# [visualstudio.com]
+dc-int.services.visualstudio.com
+dc.services.visualstudio.com
+
+# [facebook.com]
+ads.facebook.com
+an.facebook.com
+analytics.facebook.com
+graph.facebook.com
+pixel.facebook.com
+
+# [mozilla.org]
+incoming.telemetry.mozilla.org
+probes.telemetry.mozilla.org
+telemetry.mozilla.org
+
+# [firefox.com]
+detectportal.firefox.com
+
+# [webvisor.com]
+appmetrica.webvisor.com
+mobile.webvisor.com
+report-1.appmetrica.webvisor.com
+report.appmetrica.webvisor.com
+rosenberg.appmetrica.webvisor.com
+startup.mobile.webvisor.com
+u.startup.mobile.webvisor.com
+webvisor.com
+
+# [my.com]
+eu.tracker-api.my.com
+ip4.eu.tracker-api.my.com
+ip4.ru.tracker-api.my.com
+ip4.tracker-api.my.com
+ip6.eu.tracker-api.my.com
+ip6.ru.tracker-api.my.com
+ip6.tracker-api.my.com
+my.com
+ru.tracker-api.my.com
+tracker-api.my.com
+ts.tracker-api.my.com
+
+# [appsflyer.com]
+3bjjlx-cdn-settings.appsflyersdk.com
+3bjjlx-inapps.appsflyersdk.com
+3bjjlx-launches.appsflyersdk.com
+4mqwof-launches.appsflyersdk.com
+appsflyer.com
+appsflyersdk.com
+attr.appsflyer.com
+cdn-settings.appsflyersdk.com
+cdn.appsflyer.com
+conversions.appsflyer.com
+conversions.appsflyersdk.com
+dlsdk.appsflyer.com
+ezfweb-cdn-settings.appsflyersdk.com
+ezfweb-launches.appsflyersdk.com
+gcdsdk.appsflyer.com
+inapps.appsflyer.com
+inapps.appsflyersdk.com
+kiqsrh-cdn-settings.appsflyersdk.com
+kiqsrh-inapps.appsflyersdk.com
+launches.appsflyer.com
+launches.appsflyersdk.com
+pjdves-conversions.appsflyersdk.com
+pjdves-launches.appsflyersdk.com
+register.appsflyer.com
+register.appsflyersdk.com
+reqhfg-cdn-settings.appsflyersdk.com
+roovza-cdn-settings.appsflyersdk.com
+roovza-conversions.appsflyersdk.com
+trheoi-cdn-settings.appsflyersdk.com
+trheoi-conversions.appsflyersdk.com
+trheoi-dlsdk.appsflyersdk.com
+w8nbds-cdn-settings.appsflyersdk.com
+
+# [branch.io]
+api.branch.io
+api2.branch.io
+www.branch.io
+
+# [adbus.ru]
+adbus.ru
+adbus.pro
+
+# [torrentstream.net]
+a1.torrentstream.info
+a1.torrentstream.net
+a1.torrentstream.org
+a2.torrentstream.info
+a2.torrentstream.net
+a2.torrentstream.org
+a3.torrentstream.info
+a3.torrentstream.net
+a3.torrentstream.org
+a4.torrentstream.info
+a4.torrentstream.net
+a4.torrentstream.org
+a5.torrentstream.info
+a5.torrentstream.net
+a5.torrentstream.org
+e1.torrentstream.info
+e1.torrentstream.net
+e1.torrentstream.org
+e2.torrentstream.info
+e2.torrentstream.net
+e2.torrentstream.org
+e3.torrentstream.info
+e3.torrentstream.net
+e3.torrentstream.org
+e4.torrentstream.info
+e4.torrentstream.net
+e4.torrentstream.org
+e5.torrentstream.info
+e5.torrentstream.net
+e5.torrentstream.org
+s1.torrentstream.info
+s1.torrentstream.net
+s1.torrentstream.org
+s2.torrentstream.info
+s2.torrentstream.net
+s2.torrentstream.org
+s3.torrentstream.info
+s3.torrentstream.net
+s3.torrentstream.org
+s4.torrentstream.info
+s4.torrentstream.net
+s4.torrentstream.org
+s5.torrentstream.info
+s5.torrentstream.net
+s5.torrentstream.org
+
+# [acestream.net]
+a1.acestream.net
+a2.acestream.net
+a3.acestream.net
+a4.acestream.net
+a5.acestream.net
+e1.acestream.net
+e2.acestream.net
+e3.acestream.net
+e4.acestream.net
+e5.acestream.net
+r.acestream.net
+s1.acestream.net
+s2.acestream.net
+s3.acestream.net
+s4.acestream.net
+s5.acestream.net
+ts.acestream.net
+
+# [adjust.com]
+adj.st
+adjust.com
+adjust.net.in
+adjust.world
+app.adjust.com
+app.adjust.net.in
+app.adjust.world
+
+# [samsung.com]
+ad.samsungadhub.com
+ads.samsungads.com
+config.samsungads.com
+nmetrics.samsung.com
+samsungadhub.com
+samsungads.com
+smetrics.samsung.com
+
+# [mail.ru]
+ad.mail.ru
+m.mradx.net
+r.mradx.net
+r0.mail.ru
+r0.mradx.net
+r3.mail.ru
+rs.mail.ru
+top-fwz1.mail.ru
+xray.mail.ru
+
+# [vk.com]
+stats.vk-portal.net
+
+# [criteo.com]
+criteo.com
+gum.criteo.com
+
+# [adfox.ru]
+adfox.ru
+ads.adfox.ru
+banners.adfox.ru
+content.adfox.ru
+
+# [amazon.com]
+aax-us.amazon-adsystem.com
+adtago.s3.amazonaws.com
+advertising-api-eu.amazon.com
+advice-ads.s3.amazonaws.com
+affiliationjs.s3.amazonaws.com
+amazon-adsystem.com
+amazonaax.com
+amazonclix.com
+analyticsengine.s3.amazonaws.com
+assoc-amazon.com
+c.amazon-adsystem.com
+mads.amazon-adsystem.com
+s.amazon-adsystem.com
+analytics.s3.amazonaws.com
+
+# [twitch.tv]
+countess.twitch.tv
+edge.ads.twitch.tv
+spade.twitch.tv
+
+# [shazam.com]
+beacon.shazam.com
+
+# [scorecardresearch.com]
+sb.scorecardresearch.com
+udm.scorecardresearch.com
+www.scorecardresearch.com
+
+# [tns-counter.ru]
+tns-counter.ru
+www.tns-counter.ru
+
+# [applovin.com]
+a.applovin.com
+a.applvn.com
+a4.applovin.com
+applovin.com
+applvn.com
+assets.applovin.com
+d.applovin.com
+d.applvn.com
+img.applovin.com
+ms.applovin.com
+ms.applvn.com
+pdn.applovin.com
+rt.applovin.com
+rt.applvn.com
+
+# [appbrain.com]
+sdk.appbrain.com
+www.appbrain.com
+
+# [apptornado.com]
+sdk-b.apptornado.com
+www.apptornado.com
+
+# [2gis.ru]
+advisor.api.2gis.ru
+
+# [amplitude.com]
+amplitude.com
+api.amplitude.com
+api2.amplitude.com
+
+# [relap.io]
+relap.io
+
+# [flurry.com]
+ad.flurry.com
+ads.flurry.com
+data.flurry.com
+www.flurry.com
+
+# [indicative.com]
+api.indicative.com
+www.indicative.com
+
+# [inmobi.com]
+ads.inmobi.com
+config.inmobi.com
+telemetry.sdk.inmobi.com
+www.inmobi.com
+
+# [adcolony.com]
+adc3-assets.adcolony.com
+adc3-launch.adcolony.com
+wd.adcolony.com
+www.adcolony.com
+ads30.adcolony.com
+events3alt.adcolony.com
+
+# [rayjump.com]
+analytics.rayjump.com
+check.rayjump.com
+configure.rayjump.com
+hb.rayjump.com
+lazy.rayjump.com
+net.rayjump.com
+policy.rayjump.com
+www.rayjump.com
+
+# [vungle.com]
+ads.api.vungle.com
+api.vungle.com
+vungle.com
+config.ads.vungle.com
+
+# [supersonicads.com]
+init.supersonicads.com
+supersonicads.com
+
+# [unity3d.com]
+cdp.cloud.unity3d.com
+config.uca.cloud.unity3d.com
+config.unityads.unity3d.com
+configv2.unityads.unity3d.com
+unityads.unity3d.com
+
+# [mintegral.com]
+mintegral.com
+mintegral.net
+pok.mintegral.net
+
+# [bidease.com]
+bidease.com
+creative.bidease.com
+
+# [psvgamestudio.com]
+psvpromo.psvgamestudio.com
+
+# [twitter.com]
+ads-api.twitter.com
+ads-twitter.com
+advertising.twitter.com
+analytics.twitter.com
+static.ads-twitter.com
+p.twitter.com
+platform.twitter.com
+ads.twitter.com
+
+# [wildberries.ru]
+banners-bt.wildberries.ru
+carousel-ads.wildberries.ru
+catalog-ads.wildberries.ru
+
+# [mobileapptracking.com]
+deeplink.mobileapptracking.com
+engine.mobileapptracking.com
+mobileapptracking.com
+
+# [popcap.com]
+draper.popcap.com
+stats.popcap.com
+
+# [appbaqend.com]
+appbaqend.com
+a.appbaqend.com
+www.appbaqend.com
+
+# [zaycev.net]
+applog.zaycev.net
+rttr2.zaycev.net
+
+# [mts.ru]
+msdk.rtb.mts.ru
+mtsopros.mts.ru
+
+# [dynamicyield.com]
+st-eu.dynamicyield.com
+
+# [yadro.ru]
+counter.yadro.ru
+www.yadro.ru
+yadro.ru
+
+# [pubnative.net]
+api.pubnative.net
+pubnative.info
+pubnative.net
+
+# [ziffdavis.com]
+m.optout.ziffdavis.com
+www.ziffdavis.com
+
+# [qonversion.io]
+qonversion.io
+
+# [isnssdk.com]
+i.isnssdk.com
+isnssdk.com
+mon.isnssdk.com
+
+# [media.net]
+adservetx.media.net
+static.media.net
+www.media.net
+
+# [bugsnag.com]
+api.bugsnag.com
+app.bugsnag.com
+notify.bugsnag.com
+sessions.bugsnag.com
+www.bugsnag.com
+
+# [appnext.com]
+cdn.appnext.com
+www.appnext.com
+
+# [fingersoft.net]
+ads.fingersoft.net
+ads2.fingersoft.net
+ads3.fingersoft.net
+
+# [apkpure.net]
+t.apkpure.net
+
+# [franecki.net]
+franecki.net
+franeski.net
+
+# [imrworldwide.com]
+imrworldwide.com
+secure-sts-prod.imrworldwide.com
+
+# [digitaltarget.ru]
+digitaltarget.ru
+dmg.digitaltarget.ru
+tag.digitaltarget.ru
+
+# [ozon.ru]
+xapi.ozon.ru
+
+# [braze.com]
+sdk.iad-01.braze.com
+www.braze.com
+
+# [soundcloud.com]
+promoted.soundcloud.com
+telemetry.soundcloud.com
+
+# [appboy.com]
+appboy.com
+appboycdn.com
+iad.appboy.com
+serpens.iad.appboy.com
+
+# [segment.com]
+segment.com
+cdn-settings.segment.com
+
+# [buzzoola.com]
+buzzoola.com
+exchange.buzzoola.com
+
+# [instabug.com]
+api.instabug.com
+www.instabug.com
+
+# [iobit.com]
+ascstats.iobit.com
+stats.iobit.com
+
+# [aj1907.online]
+aj1058.online
+aj1090.online
+aj1433.online
+aj1549.online
+aj1616.online
+aj1713.online
+aj1834.online
+aj1860.online
+aj1907.online
+aj1939.online
+aj2021.online
+aj2113.online
+aj2171.online
+aj2178.online
+aj2204.online
+aj2313.online
+aj2345.online
+aj2377.online
+aj2392.online
+aj2396.online
+aj2550.biz
+
+# [weborama.fr]
+redirect.frontend.weborama.fr
+wcm-ru.frontend.weborama.fr
+weborama.com
+weborama.fr
+
+# [admost.com]
+admost.com
+cdn-api.admost.com
+med-api.admost.com
+
+# [myadsget.com]
+myadsget.com
+api.myadsget.com
+
+# [alfabank.ru]
+metrics.alfabank.ru
+
+# [spbtv.com]
+metrics.spbtv.com
+
+# [tafimedia.com]
+tafimedia.com
+api.tafimedia.com
+
+# [adguard.com]
+sentry-adtidy.b-cdn.net
+
+# [markmonitor.com]
+app-analytics-services.com
+
+# [spotify.com]
+pixel.spotify.com
+pixel-static.spotify.com
+
+## Reddit ##
+ads.reddit.com
+tracker.redditmedia.com
+stats.redditmedia.com
+pixel.reddit.com
+events.reddit.com
+url.fastwebdns.com
+engine.a.redditmedia.com
+events.redditmedia.com
+
+## Search Engines ##
+improving.duckduckgo.com
+ac.duckduckgo.com
+adyen.com # Used on SwissCows
+www.smartredirect.de # Used on SwissCows
+s1.qwant.com # Had something with 3rd party URLs to do.
+delivery.askmediagroup.com # Ask js
+soflopxl.com # Dogpile
+pixel.tatpek.com # Dogpile Statistics
+
+## Amazon ##
+associates-amazon.com
+opodo.de
+coin-eu.amazonpay.com
+amazon-adsystem.com
+alexametrics.com
+exelator.com
+ads.stickyadstv.com
+demdex.net
+pubmatic.com
+dpm.demdex.net
+gwwzlwibbws.com
+adxpremium.services
+criteo.net
+visualwebsiteoptimizer.com
+adyen.com
+online-metrix.net
+v3.fstats.xyz
+www.sqpgncbm.com
+o4uxrk33.com
+pl14659153.passeura.com
+bebreloomr.com
+www.huhkfzino.com
+www.advinci.co
+hqq.tv
+deliver.vkcdnservice.com
+supercounters.com
+adskeeper.co.uk
+servicer.adskeeper.com
+c.adskeeper.com
+cm.adskeeper.com
+acdcdn.com
+iyfnzgb.com
+velocitycdn.com
+statcounter.com
+celeritascdn.com
+ping.staticmoly.me
+graphql.usercentrics.eu
+stats.wp.com
+jsc.adskeeper.co.uk
+dfmagazone.co.uk
+d1qggq1at2gusn.cloudfront.net
+petchesa.net
+moneymakercdn.com
+propellerclick.com
+syndication.exdynsrv.com
+platfrom-api.sharethis.com
+cdnondemang.org
+cdn.amplitude.com
+prebid.media.net
+prebid-server.rubiconproject.com
+gum.criteo.com
+bidder.criteo.com
+delivery.swid.swichtadhub.com
+hb-api.omnitagsjs.com
+assets.adohetm.com
+eus.rubiconproject.com
+prebid.a-mo.net
+pre.ads.justpremium.com
+htlb.casalemedia.com
+orbidder.otto.de
+buyer.dspx.tv
+ice.360yield.com
+ups.xplosion.de
+get.s-onetag.com
+awin1.com
+visariomedia.com
+mblkunfd.com
+kvygpqttzqhhl.com
+st.chatango.com
+plausible.io
+track.gravitec.media
+yastatic.net
+www.windowssearch-exp.com
+segment-data.zqtk.net
+api.rlcdn.com
+match.adsrvr.org
+datadoghq.com
+librato-collector.genius.com
+analytics.lbry.com
+tag.targeting.unrulymedia.com
+b-code.liadm.com
+a.omappapi.com
+trafficjunky.net
+ctrack.trafficjunky.net
+ads.servenobid.com
+smartadserver.com
+prg.smartadserver.com
+
+## Tech Sites ##
+log.optimezely.com
+logs.optimzely.com
+f.convertkit.com
+static.scroll.com
+narrativ.com
+parsely.com
+srvtrck.com
+sp-prod.net
+clc.stackoverflow.com
+
+## Privacy ##
+csi.gstatic.com
+firebaseremoteconfig.googleapis.com
+appspot.l.google.com
+use.adserver.com
+cloudlareinsights.com
+
+#============ Ads =============
+
+# --- Google Ads
+afs.googlesyndication.com
+
+# --- Doubleclick.net
+stats.g.doubleclick.net
+
+#========= Analytics ==========
+
+# --- Google Analytics
+analytics.google.com
+click.googleanalytics.com
+google-analytics.com
+ssl.google-analytics.com
+
+# --- Hotjar
+adm.hotjar.com
+identify.hotjar.com
+insights.hotjar.com
+script.hotjar.com
+surveys.hotjar.com
+careers.hotjar.com
+events.hotjar.io
+
+# --- MouseFlow
+mouseflow.com
+cdn.mouseflow.com
+o2.mouseflow.com
+gtm.mouseflow.com
+api.mouseflow.com
+tools.mouseflow.com
+cdn-test.mouseflow.com
+
+# --- FreshWorks
+freshmarketer.com
+claritybt.freshmarketer.com
+fwtracks.freshmarketer.com
+
+# --- Luckyorange
+luckyorange.com
+api.luckyorange.com
+realtime.luckyorange.com
+cdn.luckyorange.com
+w1.luckyorange.com
+upload.luckyorange.net
+cs.luckyorange.net
+settings.luckyorange.net
+
+# --- Stats WP Plugin
+stats.wp.com
+
+#======= Error Trackers =======
+
+# --- Sentry
+browser.sentry-cdn.com
+app.getsentry.com
+browser.sentry-cdn.com
+ingest.sentry.io
+sentry-cdn.com
+sentry.io
+
+#====== Social Trackers =======
+
+# --- LinkedIn
+ads.linkedin.com
+analytics.pointdrive.linkedin.com
+
+# --- Pinterest
+ads.pinterest.com
+log.pinterest.com
+analytics.pinterest.com
+trk.pinterest.com
+
+# --- TikTok
+ads-api.tiktok.com
+analytics.tiktok.com
+ads-sg.tiktok.com
+analytics-sg.tiktok.com
+business-api.tiktok.com
+ads.tiktok.com
+log.byteoversea.com
+
+#============ Mix =============
+
+# --- Yahoo
+ads.yahoo.com
+analytics.yahoo.com
+geo.yahoo.com
+udc.yahoo.com
+udcm.yahoo.com
+analytics.query.yahoo.com
+partnerads.ysm.yahoo.com
+log.fc.yahoo.com
+gemini.yahoo.com
+adtech.yahooinc.com
+
+# --- Yandex
+extmaps-api.yandex.net
+appmetrica.yandex.ru
+adfstat.yandex.ru
+metrika.yandex.ru
+offerwall.yandex.net
+adfox.yandex.ru
+abt.s3.yandex.net
+adsdk.yandex.ru
+amc.yandex.ru
+an.yandex.ru
+analytics.mobile.yandex.net
+appmetrica.yandex.com
+bs.yandex.ru
+informer.yandex.ru
+log.strm.yandex.ru
+mc.yandex.ru
+mobile.yandexadexchange.net
+redirect.appmetrica.yandex.com
+report.appmetrica.yandex.net
+rosenberg.appmetrica.yandex.net
+startup-mobile.ap.yandex-net.ru
+startup-mobile.yandex.net
+startup.mobile.yandex.net
+taxi-promotions.s3.yandex.net
+yabs.yandex.ru
+yandexadexchange.net
+ymetrica.com
+ymetrica1.com
+ymetrica2.com
+ymetrica3.com
+yabs.yandex.com
+startup-mobile.ap.yandex-net.ru
+startup.mobile.yandex.net
+abt.s3.yandex.net
+adfstat.yandex.ru
+taxi-promotions.s3.yandex.net
+yadro.ru
+yandexadexchange.net
+
+# --- Unity
+auction.unityads.unity3d.com
+webview.unityads.unity3d.com
+config.unityads.unity3d.com
+adserver.unityads.unity3d.com
+
+#============ OEMs ============
+
+# --- Realme
+iot-eu-logser.realme.com
+iot-logser.realme.com
+bdapi-ads.realmemobile.com
+bdapi-in-ads.realmemobile.com
+
+# --- Xiaomi
+api.ad.xiaomi.com
+data.mistat.xiaomi.com
+data.mistat.india.xiaomi.com
+data.mistat.rus.xiaomi.com
+sdkconfig.ad.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
+tracking.rus.miui.com
+ad.mi.com
+ad.xiaomi.com
+adv.sec.intl.miui.com
+adv.sec.miui.com
+api.accelerator.intl.miui.com
+api.ad.intl.xiaomi.com
+api.sec.intl.miui.com
+app.chat.xiaomi.net
+authbe.sec.intl.miui.com
+data.sec.miui.com
+flash.sec.intl.miui.com
+globalapi.ad.xiaomi.com
+jupiter.intl.sys.miui.com
+jupiter.rus.sys.miui.com
+mitv.tracking.india.miui.com
+mitv.tracking.intl.miui.com
+mitv.tracking.miui.com
+mitv.tracking.rus.miui.com
+privacy.api.intl.miui.com
+sa.api.intl.miui.com
+sa.tv.global.mi.com
+sdkconfig.ad.eu.xiaomi.com
+sdkconfig.ad.india.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
+sdkconfig.ad.rus.xiaomi.com
+sdkconfig.ad.xiaomi.com
+tracking.india.miui.com
+tracking.intl.miui.com
+tracking.miui.com
+www.cdn.ad.xiaomi.com
+
+# --- Oppo
+adsfs.oppomobile.com
+adx.ads.oppomobile.com
+ck.ads.oppomobile.com
+data.ads.oppomobile.com
+
+# --- Huawei
+metrics.data.hicloud.com
+metrics2.data.hicloud.com
+grs.hicloud.com
+logservice.hicloud.com
+logservice1.hicloud.com
+logbak.hicloud.com
+
+# --- OnePlus
+click.oneplus.cn
+open.oneplus.net
+
+# --- Samsung
+samsungads.com
+smetrics.samsung.com
+nmetrics.samsung.com
+samsung-com.112.2o7.net
+analytics-api.samsunghealthcn.com
+
+# --- Apple
+iadsdk.apple.com
+metrics.icloud.com
+metrics.mzstatic.com
+api-adservices.apple.com
+books-analytics-events.apple.com
+weather-analytics-events.apple.com
+notes-analytics-events.apple.com
+bag.itunes.apple.com
+proxy.safebrowsing.apple
+
+# --- Misc
+1dmp.io
+2mdn.net
+monetize-me.ru
+33across.com
+verstka.org
+forter.com
+360yield.com
+4251.tech
+a-mo.net
+adswizz.com
+a.mts.ru
+i-media.ru
+acint.net
+acuityads.com
+ad999.biz
+adaware.com
+adbus.com
+adcamp.ru
+adcash.com
+adcel.co
+adcolony.com
+adconity.com
+addealsnetwork.com
+adduplex.com
+adeventtracker.spotify.com
+adeventtrackermonitoring.spotify.com
+adfinity.pro
+adforgames.com
+adform.com
+adfox.com
+adgrx.com
+adhigh.net
+adhitz.com
+adhitzads.com
+adhunt.net
+adinplay.com
+adj.st
+adjoe.io
+adjust.com
+adlabs.ru
+adlook.me
+admitad.com
+admixer.net
+admob.com
+s.myangular.life
+s.yimg.com
+s.youtube.com
+samsungacr.com
+samsungadhub.com
+samsungads.com
+samsungotn.net
+samsungrm.net
+sape.ru
+sc-static.net
+scorecardresearch.com
+sec.*.miui.com
+sec.miui.com
+segment.com
+semanticlocation-pa.googleapis.com
+semantiqo.com
+sendpulse.com
+sentry-cdn.com
+sentry.io
+serv01001.xyz
+serving-sys.com
+sgali-mcs.byteoversea.com
+shopnetic.com
+smaato.net
+smachnakittchen.com
+smartadserver.com
+smartclip.net
+smartscreen.microsoft.com
+smetrics.samsung.com
+smi2.net
+smntq.com
+snsv.ru
+sovrn.com
+spade.twitch.tv
+speeddials.opera.com
+spotx.tv
+springserve.com
+spylog.ru
+spynet2.microsoft.com
+spynetall.microsoft.com
+spynetalt.microsoft.com
+spyneteurope.microsoft.com
+ssp.rambler.ru
+sstats.adobe.com
+st-*.dynamicyield.com
+stat.mi.com
+stat.xiaomi.com
+static-doubleclick-net.l.google.com
+stats.iobit.com
+sts.microsoft.com
+supersonicads.com
+surfe.pro
+synacor.com
+t.apkpure.net
+taboola.com
+tafimedia.com
+tapjoy.com
+tapjoyads.com
+teads.tv
+themoneytizer.com
+thisiswaldo.com
+thumbnails*.opera.com
+top-fwz1.mail.ru
+top100.ru
+tracking.*.miui.com
+tracking.miui.com
+tracking.overwolf.com
+tradedoubler.com
+tradelab.com
+traffer.net
+trafficjunky.net
+trafficmagnet.net
+trafmag.com
+trandgid.com
+trk.mail.ru
+trontv.com
+ts.acestream.net
+tv.global.mi.com
+udc.yahoo.com
+udcm.yahoo.com
+undefined
+underdog.media
+unibots.in
+unityads.unity3d.com
+unruly.co
+upravel.com
+us-redir.opera.com
+utarget.ru
+uuidksinc.net
+uxfeedback.ru
+vak345.com
+vastroll.ru
+vdo.ai
+vertamedia.com
+video-stats.l.google.com
+videonow.ru
+videoroll.net
+vidoomy.com
+visitnet.ru
+vk-cdn.net
+vk-portal.net
+vliplatform.com
+vlitag.com
+voodoo-tech.io
+voodoo.io
+vserv.mobi
+vungle.com
+watson.*.microsoft.com
+watson.live.com
+watson.microsoft.com
+webminepool.com
+weborama.com
+weborama.fr
+webvisor.com
+whiteboxdigital.ru
+wns.windows.com
+www-googleadservices.l.google.com
+www-googletagmanager.l.google.com
+www-googletagservices.l.google.com
+xandr.com
+xapi.ozon.ru
+xray.mail.ru
+yeahmobi.com
+yllix.com
+yomeno.xyz
+youlamedia.com
+youmi.net
+yovoads.com
+yuhuads.com
+zcode16.me
+ziffdavis.com
