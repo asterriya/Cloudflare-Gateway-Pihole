@@ -3,3 +3,4 @@
 @@||amazon.com^
 @@||images-na.ssl-images-amazon.com^
 @@||fls-na.amazon.com^
+@@||github.com^
