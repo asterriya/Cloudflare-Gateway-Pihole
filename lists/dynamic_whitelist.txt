@@ -1,3 +1,4 @@
 @@||yt3.ggpht.com^
-@@||*.cloudflare.com^
+@@||cloudflare.com^
 @@||github.com^
+@@||one.dash.cloudflare.com^
