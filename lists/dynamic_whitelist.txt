@@ -1,8 +1,2 @@
 @@||yt3.ggpht.com^
-@@||githubusercontent.com^
-@@||github.com^
-@@||cloudflare.com^
-@@||youtube.com^
-@@||googlevideo.com^
-@@||one.dash.cloudflare.com^
-@@||dash.cloudflare.com^
+@@||weawow.com^
