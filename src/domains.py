@@ -2,7 +2,7 @@ import os
 import http.client
 from urllib.parse import urlparse
 from configparser import ConfigParser
-from src import info, convert
+from src import info, convert, silent_error
 
 class DomainConverter:
     def __init__(self):
@@ -49,10 +49,10 @@ class DomainConverter:
         conn.request("GET", parsed_url.path)
         response = conn.getresponse()
         if response.status != 200:
-            raise Exception(f"Failed to download file from {url}, status code: {response.status}")
+            silent_error(f"Failed to download file from {url}, status code: {response.status}")
         data = response.read().decode('utf-8')
         conn.close()
-        info(f"Downloaded file from {url}. File size: {len(data)}")
+        info(f"Downloaded file from {url} File size: {len(data)}")
         return data
         
     def process_urls(self):
