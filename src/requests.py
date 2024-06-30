@@ -5,6 +5,8 @@ import time
 import random
 import http.client
 import socket
+import urllib.parse
+import zlib
 from io import BytesIO
 from functools import wraps
 from typing import Optional, Tuple
@@ -12,21 +14,6 @@ from src import info, silent_error, error, RATE_LIMIT_INTERVAL, CF_IDENTIFIER, C
 
 class HTTPException(Exception):
     pass
-
-def get_error_message(status: int, url: str) -> str:
-    error_messages = {
-        400: "400 Client Error: Bad Request",
-        401: "401 Client Error: Unauthorized",
-        403: "403 Client Error: Forbidden",
-        404: "404 Client Error: Not Found",
-        429: "429 Client Error: Too Many Requests"
-    }
-    if status in error_messages:
-        return f"{error_messages[status]} for url: {url}"
-    elif status >= 500:
-        return f"{status} Server Error for url: {url}"
-    else:
-        return f"HTTP request failed with status {status} for url: {url}"
 
 def cloudflare_gateway_request(method: str, endpoint: str, body: Optional[str] = None, timeout: int = 10) -> Tuple[int, dict]:
     context = ssl.create_default_context()
@@ -46,16 +33,6 @@ def cloudflare_gateway_request(method: str, endpoint: str, body: Optional[str] =
         response = conn.getresponse()
         data = response.read()
         status = response.status
-        
-        if status == 400:
-            error_message = get_error_message(status, full_url)
-            error(error_message)
-            raise HTTPException(error_message)
-
-        if status != 200:
-            error_message = get_error_message(status, full_url)
-            info(error_message)
-            raise HTTPException(error_message)
 
         content_encoding = response.getheader('Content-Encoding')
         if content_encoding == 'gzip':
@@ -65,14 +42,24 @@ def cloudflare_gateway_request(method: str, endpoint: str, body: Optional[str] =
         elif content_encoding == 'deflate':
             data = zlib.decompress(data)
 
+        if status >= 400:
+            error_message = f"Request failed: {status} {response.reason}, Body: {data.decode('utf-8', errors='ignore')} for url: {full_url}"
+            if status == 400:
+                error(error_message)
+            else:
+                silent_error(error_message)
+            raise HTTPException(error_message)
+
         return status, json.loads(data.decode('utf-8'))
 
     except (http.client.HTTPException, ssl.SSLError, socket.timeout, OSError) as e:
-        info(f"Network error occurred: {e}")
-        raise HTTPException(f"Network error occurred: {e}")
+        error_message = f"Network error occurred: {e}"
+        info(error_message)
+        raise HTTPException(error_message)
     except json.JSONDecodeError:
-        info("Failed to decode JSON response")
-        raise HTTPException("Failed to decode JSON response")
+        error_message = "Failed to decode JSON response"
+        info(error_message)
+        raise HTTPException(error_message)
     finally:
         conn.close()
 
@@ -114,9 +101,6 @@ retry_config = {
         attempt_number, multiplier=1, max_wait=10
     ),
     'retry': retry_if_exception_type((HTTPException,)),
-    'after': lambda retry_state: info(
-        f"Retrying ({retry_state['attempt_number']}): {retry_state['outcome']}"
-    ),
     'before_sleep': lambda retry_state: info(
         f"Sleeping before next retry ({retry_state['attempt_number']})"
     )

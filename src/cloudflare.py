@@ -1,7 +1,7 @@
 import json
 from http.client import HTTPException
 from src import info
-from src.request import rate_limited_request, cloudflare_gateway_request, retry_config, retry
+from src.requests import rate_limited_request, cloudflare_gateway_request, retry_config, retry
 
 
 @retry(**retry_config)
